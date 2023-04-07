@@ -44,7 +44,6 @@ function onSearchImg(e) {
     });
   }
 }
-// Ось це працює, але чим відрізняється від закоментованого нижче?
 async function fetchImage(url) {
   try {
     const response = await axios(url);
